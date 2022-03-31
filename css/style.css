@@ -34,6 +34,10 @@ span > * {
     padding: 3px;
 }
 
+.unmute-button:hover {
+    display: block;
+}
+
 .header-container {
     display: flex;
     flex-direction: row;
@@ -64,7 +68,15 @@ span > * {
 .footer-element {
     position: relative;
     height: 100%;
-    width: 80px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.angle-up {
+    position: absolute;
+    right: 0;
+    top: 0; 
 }
 
 .header-container > *, .footer-container > * {
